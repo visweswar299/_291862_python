@@ -1,9 +1,12 @@
 a=20
 b="viswa"
 c=2.0
+d=a/c
 print(a)
 print(b)
 print(c)
+print(d)
 print(type(a))
 print(type(b))
 print(type(c))
+print(type(d))
