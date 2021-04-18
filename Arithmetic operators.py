@@ -5,6 +5,7 @@ Addition
 
 #integers
 # Addition
+print(10+5)
 a=10
 b=10
 print(a+b)
@@ -14,6 +15,7 @@ print(type(c))
 
 #floats
 # Addition
+print(1.0+10)
 a=1.0
 b=2.0
 print(a+b)
@@ -27,6 +29,7 @@ Subtraction
 
 #integers
 # Subtraction
+print(10-5)
 a=20
 b=5
 print(a-b)
@@ -36,6 +39,7 @@ print(type(c))
 
 #floats
 # Subtraction
+print(10.0-1)
 a=3.0
 b=1.5
 print(a-b)
@@ -48,8 +52,19 @@ Multiplication
 """)
 #integers
 # Multiply
+print(10*2.0)
 a=20
 b=5
+print(a*b)
+c=a*b
+print(c)
+print(type(c))
+
+#floats
+# Multiply
+print(10.0*1)
+a=3.0
+b=1.5
 print(a*b)
 c=a*b
 print(c)
@@ -59,7 +74,9 @@ print("""
 Division
 """)
 #integers
-# Multiply
+# Division
+print(10/2)
+print(10//2)
 a=20
 b=5
 print(a/b)
@@ -71,7 +88,9 @@ print(d)
 print(type(d))
 
 #floats
-# Multiply
+# Division
+print(10.0/2)
+print(10.0//2.0)
 a=3.0
 b=1.5
 print(a/b)
