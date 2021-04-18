@@ -100,3 +100,53 @@ print(c)
 print(type(c))
 print(d)
 print(type(d))
+
+print("""
+Modulus
+""")
+#integers
+# Modulus
+print(10%2)
+a=20
+b=5
+print(a%b)
+c=a%b
+print(c)
+print(type(c))
+
+#floats
+# Modulus
+print(10.0%2)
+print(10.0%2.0)
+a=3.0
+b=1.5
+print(a%b)
+c=a%b
+print(c)
+print(type(c))
+
+
+print("""
+Exponentiation
+""")
+#integers
+# Exponentiation
+print(10**2)
+a=20
+b=5
+print(a**b)
+c=a**b
+print(c)
+print(type(c))
+
+
+#floats
+# Exponentiation
+print(10.0**2)
+print(10.0**2.0)
+a=3.0
+b=1.5
+print(a**b)
+c=a**b
+print(c)
+print(type(c))
