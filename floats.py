@@ -8,3 +8,5 @@ print(b/b)
 print(type(b/b))
 print(a/a)
 print(type(a/a))
+
+
