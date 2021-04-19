@@ -101,6 +101,10 @@ print(type(c))
 print(d)
 print(type(d))
 
+
+print("update")
+
+
 print("""
 Modulus
 """)
@@ -150,3 +154,4 @@ print(a**b)
 c=a**b
 print(c)
 print(type(c))
+
