@@ -29,3 +29,26 @@ def function4(*name):
     print("The name is:"+name[1])
 print(function4.__doc__)
 function4("viswa","paddu","siva","chandra")
+
+def function5(**student):
+    """If the number of keyword arguments is unknown, add a double ** before the parameter name"""
+    print("He's last name is "+student["lname"])
+print(function5.__doc__)
+function5(fname="Viswa",lname="Reddy")
+
+def function6(State="AP"):
+    """Default parameter value"""
+    print("I'm from "+State)
+print(function6.__doc__)
+function6()
+function6("Kerala")
+function6("Banglore")
+function6("Tamilnadu")
+
+def function7(smoothies):
+    """Passing a List as an argument"""
+    for x in smoothies:
+        print(x)
+juices=["Mango juice","Grape juice", "Apple juice"]
+print(function7.__doc__)
+function7(juices)
