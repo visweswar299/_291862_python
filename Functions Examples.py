@@ -52,3 +52,11 @@ def function7(smoothies):
 juices=["Mango juice","Grape juice", "Apple juice"]
 print(function7.__doc__)
 function7(juices)
+
+def function8(value):
+    """Return Values"""
+    return value**value
+print(function8.__doc__)
+print(function8(5))
+print(function8(1))
+print(function8(10))
