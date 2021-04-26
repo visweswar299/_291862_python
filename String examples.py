@@ -18,3 +18,46 @@ print('s+s1=', s+s1)
 # repeat the given string 5 times
 s = "viswa"
 print('s*5=', s*5)
+
+# count no of 'l's in a string
+count = 0
+s = "Hello World!"
+for i in range(len(s)):
+    if(s[i] == 'l'):
+        count += 1
+print(count, 'letters found')
+
+
+# find a and l in the given string
+s = 'Hello World!'
+print('a' in s)
+print('l' in s)
+print('a' not in s)
+print('l' not in s)
+
+# ignore escape sequence in given string
+s = "This is \x61 \ngood example"
+print(s)
+# raw string to ignore escape sequences
+s = r"This is \x61 \ngood example"
+print(s)
+
+# change lowercase to uppercase and vice versa
+s = "Hello"
+s1 = "hello"
+print(s.lower())
+print(s1.upper())
+
+# replace hello with world
+s = "Hello"
+print(s.replace(s, 'World'))
+
+# use split and join method to given string
+s = 'This is python world'
+print(s.split(' '))
+s = ['This', 'is', 'python', 'world']
+print(' '.join(s))
+
+# find word in given string
+s = 'This is python world'
+print(s.find("is"))
